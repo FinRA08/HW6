@@ -9,7 +9,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-public class EchoClient extends JFrame {
+public class EchoClient extends JFrame {//клиент
     private final String SERVER_ADDR = "localhost";
     private final int SERVER_PORT = 8189;
 

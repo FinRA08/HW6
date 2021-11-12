@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class EchoServer {
+public class EchoServer {//сервер
     public static void main(String[] args) {
         Socket socket = null;
         try (ServerSocket serverSocket = new ServerSocket(8189)) {
